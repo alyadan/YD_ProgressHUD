@@ -45,19 +45,17 @@ public class SVPHud : YD_ProgressHUDType {
     }
     
     
-    public func showMessage(showType: ShowType, message: String) {
+    public func showMessage(showType: ShowType = .info, message: String) {
         
-        runInMainQuequ {
-            switch showType {
-            case .info:
-                SVProgressHUD.showInfo(withStatus: message)
-            case .success:
-                SVProgressHUD.showSuccess(withStatus: message)
-            case .error:
-                SVProgressHUD.showError(withStatus: message)
-            case .progress:
-                SVProgressHUD.show(withStatus: message)
-            }
+        switch showType {
+        case .info:
+            SVProgressHUD.showInfo(withStatus: message)
+        case .success:
+            SVProgressHUD.showSuccess(withStatus: message)
+        case .error:
+            SVProgressHUD.showError(withStatus: message)
+        case .progress:
+            SVProgressHUD.show(withStatus: message)
         }
     }
     

@@ -461,6 +461,7 @@
 				72E200151DAE5DF30064AC22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72E200161DAE5DF30064AC22 /* Build configuration list for PBXNativeTarget "YD_ProgressHUDTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				72E200181DAE5DF30064AC22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72E2FFF91DAE5DF30064AC22 /* Build configuration list for PBXProject "YD_ProgressHUD" */ = {
 			isa = XCConfigurationList;
