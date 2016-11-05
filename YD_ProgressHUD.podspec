@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YD_ProgressHUD"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "progressHUD warp"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/alyadan/YD_ProgressHUD.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/alyadan/YD_ProgressHUD.git", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-s.source_files  =  "YD_ProgressHUD/**/*.{h,m,swift}", "./*.swift"
+  s.source_files  =  "Source/*.swift"
+#s.source_files  =  "./*.swift"
 #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
