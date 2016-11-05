@@ -133,6 +133,6 @@ s.source_files  =  "YD_ProgressHUD/**/*.{h,m,swift}"
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+   s.dependency "SVProgressHUD", "~> 2.0.3"
 
 end
